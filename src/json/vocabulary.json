@@ -1,0 +1,55 @@
+{
+  "vocabulary": {
+    "basic": [
+      {
+        "word": "a",
+        "partOfSpeech": "det.",
+        "pronunciation": "เอ",
+        "translation": "หนึ่ง",
+        "synonym": "one",
+        "antonym": "-",
+        "example": ""
+      }
+    ],
+    "intermediate": [
+      {
+        "word": "integrate",
+        "partOfSpeech": "verb",
+        "pronunciation": "อินทิเกรต",
+        "translation": "รวมเข้าด้วยกัน",
+        "synonym": "combine",
+        "antonym": "separate",
+        "example": "We need to integrate these ideas into our plan."
+      },
+      {
+        "word": "coincide",
+        "partOfSpeech": "verb",
+        "pronunciation": "โคอินไซด์",
+        "translation": "ตรงกัน",
+        "synonym": "concur",
+        "antonym": "differ",
+        "example": "Our schedules coincide, so we can meet up."
+      }
+    ],
+    "advanced": [
+      {
+        "word": "ubiquitous",
+        "partOfSpeech": "adjective",
+        "pronunciation": "ยูบิกวิทัส",
+        "translation": "ทั่วไป",
+        "synonym": "omnipresent",
+        "antonym": "rare",
+        "example": "Smartphones have become ubiquitous in our society."
+      },
+      {
+        "word": "ephemeral",
+        "partOfSpeech": "adjective",
+        "pronunciation": "อีฟิเมอรัล",
+        "translation": "ชั่วคราว",
+        "synonym": "transient",
+        "antonym": "permanent",
+        "example": "The beauty of cherry blossoms is ephemeral."
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans Thai', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EBF7FF;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.widjet {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 6px 16px 4px #c7dceb52;
+  align-items: center;
+}
+
+.navbar {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
+
+.brand-title {
+  cursor: pointer;
+}
+
+.btn-random:hover, .btn-voice:hover{
+  transition: all 0.5s;
+  transform: translateY(-5px);
+}
+
+.vocabulary > .btn-vocab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 1em 0;
+  margin-top: 2em;
+}
+
+.vocabulary > .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 2em;
+}
+
+.words {
+  width: 300px;
+  height: 460px;
+  padding: 30px;
+  border: solid #62878c20 1.5px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 6px 16px 8px #c7dceb52;
+}
+
+.word-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 70%;
+}
+
+.word-wrapper h1 {
+  color: #009FFF;
+  text-transform: capitalize;
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.word-wrapper p {
+  color: #009FFF;
+  text-transform: lowercase;
+  margin: 0;
+}
+
+.translation {
+  display: flex;
+  flex-direction: column;
+  border: solid #62878c20 1.5px;
+  padding: 30px;
+  border-radius: 20px;
+  background: #F5F5F5;
+  width: 588px;
+  height: 460px;
+  justify-content: space-between;
+}
+
+.translate > p {
+  color: #4E7085;
+  margin: 0;
+  font-weight: 400;
+}
+
+.translate > h1 {
+  color: #4E7085;
+  margin: 0;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.syn-anonym {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.synonym p, .antonym p, .example p {
+  color: #4E7085;
+  margin: 0;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.synonym h2, .antonym h2 {
+  color: #4E7085;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.example h2 {
+  color: #4E7085;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.synonym, .antonym {
+  flex: 0.5;
+}
